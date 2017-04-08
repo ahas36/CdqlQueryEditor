@@ -41,7 +41,7 @@ ace.define('ace/ext/antlr4/tokenizer', ['antlr4/index'], function (require, expo
   };
 
   (function () {
-      debugger;
+     
     this.getLineTokens = function getLineTokens(line) {
       var stream = new antlr4.InputStream(line + '\n');
       var lexer = new this.Lexer(stream);

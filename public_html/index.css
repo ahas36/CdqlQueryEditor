@@ -5,3 +5,28 @@
     left: 0;
     width: 100%;
 }
+.pop-up{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: wheat;
+    z-index: 100;
+    width: 150px;
+    height: 80px;
+    overflow-y: scroll;
+}
+
+#Test
+{
+    position: absolute;
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    white-space: nowrap;
+}
+
+.highLightRow
+{
+    background-color: yellowgreen;
+}

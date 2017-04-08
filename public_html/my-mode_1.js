@@ -27,8 +27,6 @@ ace.define(
     (function() {
 
       this.$id = "ace/mode/my-mode";
-      
-     
 
       this.getTokenizer = function() {
         if (!this.$tokenizer) {
@@ -36,8 +34,7 @@ ace.define(
         }
         return this.$tokenizer;
       };
-      
-      
+
       var WorkerClient = require("ace/worker/worker_client").WorkerClient;
       this.createWorker = function(session) {
         this.$worker = new WorkerClient(["ace"], "ace/worker/my-worker", "MyWorker");
